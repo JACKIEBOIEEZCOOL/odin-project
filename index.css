@@ -1,0 +1,182 @@
+div{
+    font-family: roboto,arial;
+}
+.first{
+    
+    background-color:rgb(31, 39, 51) ;
+    height: 300px;
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px ;
+    color: white;
+}
+.head{
+    font-family: Roboto,arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+.one,.two,.three{
+    border: none;
+    background-color: rgb(31,39,51);
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s,opacity 0.5s;
+}
+button:hover
+{
+    color: yellowgreen;
+}
+button:active{
+    opacity: 0.5;
+}
+.first-mid{
+    display: flex;
+    justify-content: space-between;
+}
+.mid-left{
+    padding-left: 120px;
+    padding-top: 10px;
+}
+.awesome {
+    width: 300px;
+    font-weight: bold;
+    color: white;
+    font-size: 34px;
+    ;
+}
+.sub{
+    color: white;
+    font-size: 14px;
+    width: 300px;
+}
+.butt{
+    padding-top: 10px;
+}
+.sign{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: rgb(25, 117, 255);
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+.mid-left{
+    position: relative;
+}
+.car{
+    height: 190px;
+    width: 270px;
+    padding-right: 120px;
+}
+.text{
+    position: absolute;
+    padding-left: 13px;
+    top: 80px;
+    font-size:10px ;
+    color: rgb(222, 11, 11);
+}
+.second{
+    height: 340px;
+}
+.info{
+    display: flex;
+    justify-content: center ;
+}
+
+.rectangles{
+    display: flex;
+    justify-content: center;
+}
+.fir{
+    border: 5px;
+    height: 120px;
+    width: 120px;
+    border-style: solid;
+
+    border-radius: 4px;
+    border-color: rgb(25, 117, 255);
+    background-color: rgb(255, 255, 255);
+    margin-right: 50px;
+}
+.third{
+    background-color: rgb(227, 230, 235);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    width: 700px;
+    font-family: roboto,arial;
+}
+.info1{
+    font-size: 30px;
+    color: rgb(15, 13, 13);
+    font-weight: lighter;
+    font-style: italic;
+}
+.who{
+    font-weight: bold;
+    margin-left: 500px;
+    font-size: 17px;
+}
+.fourth{
+    margin-top: 100px;
+    background-color: rgb(25, 117, 255);
+    height: 150px;
+    margin-right: 120px;
+    margin-left: 120px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    font-family: roboto,arial;
+}
+.first-call{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.call{
+    margin: 0;
+    font-size: 22px;
+    font-weight:bold;
+    
+}
+.yup{
+    margin: 0;
+    margin-left: 240px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(25, 117, 255);
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    
+    border-radius: 5px;
+    transition: background-color 0.5s,color 0.5s;
+}
+.yup:hover{
+    background-color:white ;
+    color: rgb(25, 117, 255);
+}
+.product{
+    font-size: 12px;
+    margin: 0;
+    font-weight: lighter;
+}
